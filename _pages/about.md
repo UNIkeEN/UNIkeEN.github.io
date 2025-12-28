@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at the School of Computer Science, Shanghai Jiao Tong University (SJTU), supervised by Prof. Fan Wu and Assistant Chaoyue Niu, and I received my Bachelor's degree from Shanghai Jiao Tong University in 2025.
+I am a PhD student at the School of Computer Science, Shanghai Jiao Tong University (SJTU), supervised by `Prof. Fan Wu` and `Assist Prof. Chaoyue Niu`, and I received my Bachelor's degree from Shanghai Jiao Tong University in 2025.
 
 My current research focus on:
 
