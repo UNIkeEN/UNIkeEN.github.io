@@ -36,7 +36,7 @@ My current research focus on:
 
 ### Open-source Project
 
-- 2024-Now, **SJMC Launcher**：跨平台 Minecraft 启动器，项目负责人
+- *2024 - Now*, *SJMC Launcher*: 跨平台 Minecraft 启动器，项目负责人
 
 
 # 💻 Internships
