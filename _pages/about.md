@@ -27,8 +27,8 @@ My current interests include:
 
 Outside of my research and studies, I also serve as:
 
-- Vice President and Head of the Tech Department at SJTU Minecraft Club (SJMC)  
-- Core member of SJTU Student Information Technology Association (SJTU-Geek)
+- Vice President and Head of the Tech Department at [SJTU Minecraft Club (SJMC)](https://mc.sjtu.cn/welcome)  
+- Core member of [SJTU Student Information Technology Association (SJTU-Geek)](https://geek.sjtu.edu.cn)
 
 
 # 🎓 Educations
@@ -44,14 +44,14 @@ Outside of my research and studies, I also serve as:
 
 ### Open-source Project
 
-- *2024 - Now*, **SJMC Launcher**: cross-platform Minecraft launcher. `Team Leader`
-- *2023 - Now*, **SJTU Aixinwu**: campus idle items exchange platform. `Maintainer`
+- *2024 - Now*, **SJMC Launcher**: cross-platform Minecraft launcher. `Team Leader` [[GitHub]](https://github.com/UNIkeEN/SJMCL) [[Video]](https://www.bilibili.com/video/BV1gMnJzGEiM)
+- *2023 - Now*, **SJTU Aixinwu**: campus idle items exchange platform. `Maintainer` [[GitHub]](https://github.com/SJTU-Geek/Aixinwu-front)
 
 # 🏆 Awards
 
 - *2025*, Excellent Graduate of Shanghai, 上海市优秀毕业生 **(Top 1%)**
 - *2024*, 董氏奖学金 **(Top 5%)**
-- *2024*, 中国国际大学生创新赛, 上海市银奖
+- *2024*, 中国国际大学生创新大赛, 上海市银奖
 - *2024*, 华为中国大学生 ICT 大赛创新赛, 全国一等奖
 
 # 💻 Internships
