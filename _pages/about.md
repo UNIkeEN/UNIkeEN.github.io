@@ -19,9 +19,17 @@ redirect_from:
 
 I am a PhD student at the School of Computer Science, Shanghai Jiao Tong University (SJTU), supervised by `Prof. Fan Wu` and `Assist Prof. Chaoyue Niu`, and I received my Bachelor's degree from Shanghai Jiao Tong University in 2025.
 
-My current research focus on:
+My current interests include:
 
-* 3D Avatar reconstruction and generation
+- 3D avatar reconstruction and generation. 
+- 3D scene reconstruction, understanding and human interaction.
+- LLMs and mobile agents.
+
+Outside of my research and studies, I also serve as:
+
+- Vice President and Head of the Tech Department at SJTU Minecraft Club (SJMC)  
+- Core member of SJTU Student Information Technology Association (SJTU-Geek)
+
 
 # 🎓 Educations
 - *2025.09 – Now*, Shanghai Jiao Tong University        `PhD`
@@ -36,8 +44,15 @@ My current research focus on:
 
 ### Open-source Project
 
-- *2024 - Now*, *SJMC Launcher*: 跨平台 Minecraft 启动器，项目负责人
+- *2024 - Now*, **SJMC Launcher**: cross-platform Minecraft launcher. `Team Leader`
+- *2022 - 2024*, **SJTU Aixinwu**: campus idle items exchange platform. `Maintainer`
 
+# 🏆 Awards
+
+- *2025*, Excellent Graduate of Shanghai, 上海市优秀毕业生 **(Top 1%)**
+- *2024*, 董氏奖学金 **(Top 5%)**
+- *2024*, 中国国际大学生创新赛, 上海市银奖
+- *2024*, 华为中国大学生 ICT 大赛创新赛, 全国一等奖
 
 # 💻 Internships
 - *2024.07 - 2025.09*, Taobao and TMall Group, Alibaba Group, Hangzhou, China.
