@@ -45,7 +45,7 @@ Outside of my research and studies, I also serve as:
 ### Open-source Project
 
 - *2024 - Now*, **SJMC Launcher**: cross-platform Minecraft launcher. `Team Leader`
-- *2022 - 2024*, **SJTU Aixinwu**: campus idle items exchange platform. `Maintainer`
+- *2023 - Now*, **SJTU Aixinwu**: campus idle items exchange platform. `Maintainer`
 
 # 🏆 Awards
 
