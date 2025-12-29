@@ -28,7 +28,7 @@ My current interests include:
 Outside of my research and studies, I also serve as:
 
 - Vice President and Head of the Tech Department at [SJTU Minecraft Club (SJMC)](https://mc.sjtu.cn/welcome)  
-- Core member of [SJTU Student Information Technology Association (SJTU-Geek)](https://geek.sjtu.edu.cn)
+- Core Member of [SJTU Student Information Technology Association (SJTU-Geek)](https://geek.sjtu.edu.cn)
 
 
 # 🎓 Educations
