@@ -36,7 +36,7 @@ Outside of my research and studies, I also serve as:
 - *2021.09 – 2025.06*, Shanghai Jiao Tong University         `Bachelor`
 
 # 📝 Publications 
-- `Yujie Sun`, Zhuoqiang Cai, Chaoyue Niu, Jianchuan Chen, Zhiwen Chen, Chengfei Lv, Fan Wu. FHAvatar: Fast and High-Fidelity Reconstruction of Face-and-Hair Composable 3D Head Avatar from Few Casual Captures. **CVPR 2026 (CCF-A)** [Paper](https://arxiv.org/abs/2603.23345)
+- `Yujie Sun`, Zhuoqiang Cai, Chaoyue Niu, Jianchuan Chen, Zhiwen Chen, Chengfei Lv, Fan Wu. FHAvatar: Fast and High-Fidelity Reconstruction of Face-and-Hair Composable 3D Head Avatar from Few Casual Captures. **CVPR 2026 (CCF-A)** [[Paper]](https://arxiv.org/abs/2603.23345)
 - Wei Li, Borui Yang, `Yujie Sun`, Suyu Chen, Yuting Chen, Liyao Xiang. CodeMark: Contextual and Natural Watermarking for Tracing Code Snippet Provenance. **TDSC 2025 (CCF-A)**
 - Tiancheng Fang, Chaoyue Niu, `Yujie Sun`, Chengfei Lv, Xiaotang Jiang, Ben Xue, Fan Wu, Guihai Chen. An End-to-End, Low-Cost, and High-Fidelity 3D Video Pipeline for Mobile Devices. **MobiCom 2024 (CCF-A)**
 
