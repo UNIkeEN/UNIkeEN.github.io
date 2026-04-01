@@ -49,10 +49,10 @@ Outside of my research and studies, I also serve as:
 
 # 🏆 Awards
 
-- *2025*, Excellent Graduate of Shanghai, 上海市优秀毕业生 **(Top 1%)**
+- *2025*, Winner (1st Place), CVPR 2025 Photorealistic 3D Head Avatars Workshop
+- *2025*, Shanghai Outstanding Graduates, 上海市优秀毕业生 **(Top 1%)**
 - *2024*, 董氏奖学金 **(Top 5%)**
 - *2024*, 中国国际大学生创新大赛, 上海市银奖
-- *2024*, 华为中国大学生 ICT 大赛创新赛, 全国一等奖
 
 # 💻 Internships
 - *2024.07 - 2025.09*, Taobao and TMall Group, Alibaba Group, Hangzhou, China.
