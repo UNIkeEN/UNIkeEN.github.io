@@ -37,6 +37,9 @@
     rgba(211, 119, 15, 0.34),
     rgba(255, 185, 82, 0.26)
   );
+  --color-filter-all-active: light-dark(#293241, #334155);
+  --color-filter-selected-active: light-dark(#a85400, #934b16);
+  --color-filter-active-text: #ffffff;
   --color-unicorn-purple: light-dark(#7c3aed, #c4b5fd);
   --color-unicorn-orange: light-dark(#f97316, #fdba74);
   --color-unicorn-pink: light-dark(#ec4899, #f9a8d4);

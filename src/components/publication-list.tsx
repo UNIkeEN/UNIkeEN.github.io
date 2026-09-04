@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react";
+import { LuFileText } from "react-icons/lu";
 
 import { publicationAuthorLinks, type Publication } from "../data/site-content";
 import { ActionLink } from "./action-link";
@@ -132,14 +133,24 @@ export function PublicationList({
             className={`publication${publication.selected ? " publication--selected" : ""}`}
             key={publication.title}
           >
-            <img
-              alt={publication.image.alt}
-              className="publication__image"
-              height="540"
-              loading="lazy"
-              src={publication.image.src}
-              width="720"
-            />
+            {publication.image ? (
+              <img
+                alt={publication.image.alt}
+                className="publication__image"
+                height="540"
+                loading="lazy"
+                src={publication.image.src}
+                width="720"
+              />
+            ) : (
+              <div
+                aria-label="Publication thumbnail placeholder"
+                className="publication__image publication__image--placeholder"
+                role="img"
+              >
+                <LuFileText aria-hidden="true" />
+              </div>
+            )}
             <div className="publication__content">
               <div className="publication__venue-tags">
                 {publication.selected && (

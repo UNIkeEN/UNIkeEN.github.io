@@ -7,7 +7,7 @@ export interface Publication {
   authors: readonly string[];
   title: string;
   venue: string;
-  image: {
+  image?: {
     src: string;
     alt: string;
   };
@@ -101,10 +101,6 @@ const publications = [
     title:
       "Dynamic Flow, Static Graph: KV Cache Reuse for Efficient LLM Serving on Mobile NPUs",
     venue: "EuroSys 2027",
-    image: {
-      src: "/publications/publication-fallback.svg",
-      alt: "Publication thumbnail placeholder",
-    },
     links: [],
     selected: false,
     tags: ["LLM Systems", "Mobile Computing"],
@@ -165,10 +161,6 @@ const publications = [
     title:
       "CodeMark: Contextual and Natural Watermarking for Tracing Code Snippet Provenance",
     venue: "TDSC 2025",
-    image: {
-      src: "/publications/publication-fallback.svg",
-      alt: "Publication thumbnail placeholder",
-    },
     links: [{ label: "Paper", href: "https://arxiv.org/abs/2305.12461" }],
     selected: false,
     tags: ["Security"],
