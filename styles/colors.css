@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light dark;
+
+  --color-background: light-dark(#f3f5f7, #0d1117);
+  --color-surface: light-dark(#ffffff, #151b23);
+  --color-surface-muted: light-dark(#f7f8fa, #1a222c);
+  --color-text: light-dark(#172033, #f0f4f8);
+  --color-text-body: light-dark(#3f4858, #cbd3dc);
+  --color-text-muted: light-dark(#5d6778, #9aa6b2);
+  --color-border: light-dark(#dfe3e8, #2a3441);
+  --color-accent: light-dark(#2557d6, #8ab4ff);
+  --color-accent-hover: light-dark(#173fae, #b7d0ff);
+  --color-accent-soft: light-dark(#e8efff, #18294a);
+  --color-shadow: light-dark(rgba(23, 32, 51, 0.08), rgba(0, 0, 0, 0.3));
+  --color-glow-purple: light-dark(
+    rgba(174, 132, 255, 0.4),
+    rgba(126, 82, 205, 0.2)
+  );
+  --color-glow-orange: light-dark(
+    rgba(255, 183, 100, 0.36),
+    rgba(207, 116, 45, 0.16)
+  );
+  --color-glow-pink: light-dark(
+    rgba(255, 151, 196, 0.34),
+    rgba(190, 72, 137, 0.16)
+  );
+  --color-selected: light-dark(#a85400, #ffc46b);
+  --color-selected-soft: light-dark(
+    rgba(255, 190, 87, 0.2),
+    rgba(219, 126, 38, 0.14)
+  );
+  --color-selected-glow: light-dark(
+    rgba(255, 174, 55, 0.3),
+    rgba(255, 164, 54, 0.15)
+  );
+  --color-selected-border: light-dark(
+    rgba(211, 119, 15, 0.34),
+    rgba(255, 185, 82, 0.26)
+  );
+  --color-unicorn-purple: light-dark(#7c3aed, #c4b5fd);
+  --color-unicorn-orange: light-dark(#f97316, #fdba74);
+  --color-unicorn-pink: light-dark(#ec4899, #f9a8d4);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
