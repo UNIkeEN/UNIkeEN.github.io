@@ -19,12 +19,10 @@ const profileLinkIcons = {
 
 interface SectionNavigationLinksProps {
   activeSectionId: string;
-  onSelect: (sectionId: string) => void;
 }
 
 function SectionNavigationLinks({
   activeSectionId,
-  onSelect,
 }: SectionNavigationLinksProps) {
   return navigation.map((item) => {
     const active = item.id === activeSectionId;
@@ -34,7 +32,6 @@ function SectionNavigationLinks({
         aria-current={active ? "location" : undefined}
         key={item.href}
         href={item.href}
-        onClick={() => onSelect(item.id)}
       >
         <LuSend
           aria-hidden="true"
@@ -60,28 +57,61 @@ export function ProfileSidebar() {
       .map((item) => document.getElementById(item.id))
       .filter((section): section is HTMLElement => section !== null);
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const activeEntry = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort(
-            (first, second) =>
-              Math.abs(
-                first.boundingClientRect.top - window.innerHeight * 0.2
-              ) -
-              Math.abs(second.boundingClientRect.top - window.innerHeight * 0.2)
-          )[0];
+    if (sections.length === 0) {
+      return;
+    }
 
-        if (activeEntry) {
-          setActiveSectionId(activeEntry.target.id);
-        }
-      },
-      { rootMargin: "-20% 0px -65% 0px" }
-    );
+    let animationFrame: number | null = null;
 
-    sections.forEach((section) => observer.observe(section));
+    const updateActiveSection = () => {
+      animationFrame = null;
 
-    return () => observer.disconnect();
+      const viewportMidpoint = window.innerHeight / 2;
+      const sectionAtMidpoint = sections.find((section) => {
+        const bounds = section.getBoundingClientRect();
+
+        return (
+          bounds.top <= viewportMidpoint && bounds.bottom >= viewportMidpoint
+        );
+      });
+
+      if (sectionAtMidpoint) {
+        setActiveSectionId(sectionAtMidpoint.id);
+        return;
+      }
+
+      const firstBounds = sections[0].getBoundingClientRect();
+      const lastSection = sections[sections.length - 1];
+      const lastBounds = lastSection.getBoundingClientRect();
+
+      if (viewportMidpoint < firstBounds.top) {
+        setActiveSectionId(sections[0].id);
+      } else if (viewportMidpoint > lastBounds.bottom) {
+        setActiveSectionId(lastSection.id);
+      }
+    };
+
+    const scheduleUpdate = () => {
+      if (animationFrame === null) {
+        animationFrame = window.requestAnimationFrame(updateActiveSection);
+      }
+    };
+
+    const resizeObserver = new ResizeObserver(scheduleUpdate);
+    sections.forEach((section) => resizeObserver.observe(section));
+    window.addEventListener("resize", scheduleUpdate);
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    updateActiveSection();
+
+    return () => {
+      if (animationFrame !== null) {
+        window.cancelAnimationFrame(animationFrame);
+      }
+
+      resizeObserver.disconnect();
+      window.removeEventListener("resize", scheduleUpdate);
+      window.removeEventListener("scroll", scheduleUpdate);
+    };
   }, []);
 
   useEffect(() => {
@@ -160,10 +190,7 @@ export function ProfileSidebar() {
         </div>
 
         <nav className="profile-card__navigation" aria-label="Page sections">
-          <SectionNavigationLinks
-            activeSectionId={activeSectionId}
-            onSelect={setActiveSectionId}
-          />
+          <SectionNavigationLinks activeSectionId={activeSectionId} />
         </nav>
 
         <div
@@ -201,10 +228,7 @@ export function ProfileSidebar() {
           aria-label="Page sections"
           ref={mobileNavigationRef}
         >
-          <SectionNavigationLinks
-            activeSectionId={activeSectionId}
-            onSelect={setActiveSectionId}
-          />
+          <SectionNavigationLinks activeSectionId={activeSectionId} />
         </nav>
       )}
     </>
