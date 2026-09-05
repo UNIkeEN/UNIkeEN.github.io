@@ -854,7 +854,7 @@
 }
 
 .publication:last-child {
-  padding-bottom: 0.5rem;
+  padding-bottom: var(--content-card-inline-padding);
 }
 
 .publication:first-child {
