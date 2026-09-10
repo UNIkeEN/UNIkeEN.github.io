@@ -82,6 +82,7 @@ export const profile = {
 export const publicationAuthorLinks: Readonly<Record<string, string>> = {
   "Chaoyue Niu": "https://cs.sjtu.edu.cn/jiaoshiml/niuchaoyue.html",
   "Fan Wu": "https://cs.sjtu.edu.cn/jiaoshiml/wufan.html",
+  "Zhiwen Chen": "https://czwxian.github.io/",
   "Zhuoqiang Cai": "https://vhahahav.github.io/",
 };
 
@@ -122,7 +123,7 @@ const publications = [
       src: "/publications/echo.webp",
       alt: "ECHO method overview",
     },
-    links: [],
+    links: [{ label: "Paper", href: "https://arxiv.org/abs/2609.05506" }],
     selected: true,
     tags: ["3D Vision"],
   },
