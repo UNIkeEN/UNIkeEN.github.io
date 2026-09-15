@@ -184,7 +184,12 @@ const publications = [
       src: "/publications/mobile-3d-video.webp",
       alt: "End-to-end mobile 3D video pipeline overview",
     },
-    links: [{ label: "Paper", href: "https://arxiv.org/abs/2412.10443" }],
+    links: [
+      {
+        label: "Paper",
+        href: "https://dl.acm.org/doi/10.1145/3636534.3690685",
+      },
+    ],
     selected: false,
     tags: ["3D Vision", "Mobile Computing"],
   },
